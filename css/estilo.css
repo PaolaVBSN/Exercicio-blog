@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+    background-color: #e0e2e6;
+    color: rgba (0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.textoCorpo{
+    width: 900px;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+    padding: -15;
+    margin: 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #080808;
+  }
+  
+  ul li a:hover {
+    color: #ffebb2;
+  }
+  
+id#menu {
+      font-family: 'FontePrincipal', sans-serif;
+      font-size: 15pt;
+      color: #131313;
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+    }
+
+.leiaMais {
+    display: inline-block;
+    background-color: #ffb54e;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.textoExtra {
+    display: none;
+    margin-top: 9px;
+}
+
+#textoExtra:target {
+    display: block;
+}
+.Imagine-nave{
+    background-color: #F7B600 ;
+    padding: -2%;
+    justify-content: center;
+    text-align: center;
+    height: 125px;
+
+}
+.textoExtraJogos {
+    display: none;
+    margin-top: 9px;
+}
+
+#textoExtraJogos:target {
+    display: block;
+}
+
+.rodape {
+    background-color: #000000;
+    font-family: 'FontePrincipal', sans-serif;
+    font-size: 10pt;
+    padding: -100px;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
